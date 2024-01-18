@@ -173,12 +173,15 @@ a{
 }
 details{
     color: white;
-    height: 70px;
+    height: auto;
     width: 1200px;
     background-color: #2d2d2d;
     font-size: 30px;
     margin: 20px;
-    
+    padding-bottom: 22px;    
+}
+details h6{
+    margin-left: 25px;
 }
 h6{
     font-weight: normal;
