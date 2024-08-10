@@ -89,7 +89,7 @@ p {
     max-width: 400px;
     border: 2px solid red;
     border-radius: 4px;
-    color: white;
+    color: black;
     font-size: 1rem;
     padding: 0 10px;
     margin-bottom: 10px;
@@ -254,4 +254,7 @@ a {
     #started {
         width: 100%;
     }
+}
+input{
+    color: black;
 }
