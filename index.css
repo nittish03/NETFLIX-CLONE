@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    transition : all 0.2s ease-in-out
 }
 
 body {
@@ -44,6 +45,7 @@ header {
     height: 50px;
     width: 150px;
     mix-blend-mode: difference;
+    margin-left: 8vh;
 }
 
 select, .sign {
@@ -54,7 +56,11 @@ select, .sign {
     font-size: 15px;
     font-weight: bold;
 }
+.sign{
+    margin-right: 8vw;
+    margin-left: 15px;
 
+}
 select {
     background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid white;
@@ -146,12 +152,18 @@ summary {
     padding: 20px;
     font-size: 1.2rem;
     cursor: pointer;
-}
+    transition: all 0.5s;
 
+}
+details{
+    transition: all 0.5s;
+}
 details h6 {
     padding: 0 20px 20px;
     font-weight: normal;
     font-size: 1rem;
+    transition: all 0.5s;
+
 }
 
 /* Footer */
